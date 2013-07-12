@@ -5,6 +5,9 @@ body {
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
+  background-repeat:none;
+  background-size:cover cover;
+  background-repeat:norepeat;
   background-image:url(/img/week.gif);
 }
 
