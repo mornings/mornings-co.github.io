@@ -15,3 +15,37 @@
     display: inline-block;
     margin-left: 0.8em;
 }
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 2.4em
+}
+
+#lang {
+    position: absolute;
+    right: 40px;
+    top: 0.4em;
+}
+
+#lang ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+#lang p {
+    display: inline-block;
+}
+
+#lang ul li {
+    display: inline-block;
+    margin-right: 2.4em
+}
