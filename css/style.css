@@ -87,3 +87,20 @@ body {
     display: inline-block;
     margin-right: 2.4em
 }
+
+/* ----------------------------- */
+
+#lema {
+  float: right;
+}
+
+#lema p {
+    color: #444;
+}
+
+#copy {
+  }
+
+#copy p {
+    color: #444;
+}
