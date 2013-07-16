@@ -1,6 +1,26 @@
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 15px;
+    overflow: auto;
+  letter-spacing: 0em;
+}
+
+/* ----------------------------- */
+
 #superior {
   min-width: 800px;
 }
+
+#inferior {
+  position: fixed;
+    bottom: 0px;
+  font-size: 0.9em;
+  min-width: 800px;
+  margin: 0;
+  padding: 0px 40px 6px 40px;
+}
+
+/* ----------------------------- */
 
 .text {
     position: fixed;
@@ -10,6 +30,23 @@
     -moz-box-sizing: border-box;
     z-index: 10000;
 }
+
+
+
+.text a,
+.text p
+{
+    color: #fff;
+    text-decoration: none; 
+}
+
+.text li a:hover,
+.text li a.active
+{
+  color: #444;
+}
+
+/* ----------------------------- */
 
 .menu {
     display: inline-block;
