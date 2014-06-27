@@ -1,5 +1,4 @@
-[Mornings](https://mornings.co)
-=====================
+### [Mornings](https://mornings.co)
 
 A small + simple website.
 
