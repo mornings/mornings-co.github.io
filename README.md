@@ -1,4 +1,4 @@
-mornings-co.github.io
+Mornings
 =====================
 
-Simple Home Goods.
+A small + simplae website.
