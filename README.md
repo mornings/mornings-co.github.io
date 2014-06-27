@@ -1,4 +1,4 @@
 Mornings
 =====================
 
-A small + simplae website.
+A small + simple website.
