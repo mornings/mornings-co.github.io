@@ -1,4 +1,4 @@
-### [Mornings](https://mornings.co)
+### [Mornings](http://mornings.co)
 
 - - -
 
