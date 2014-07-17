@@ -36,7 +36,6 @@ p {
 }
 
 strong {
-	font-family: 'AcneStudiosCircleBold';
 	font-weight: 500;
 	color: #444;
 }
@@ -69,12 +68,17 @@ a#titleright {
 	max-width:200px;
 }
 
-/* Horizontally and vertically centers the text */
+/* Horizontally and vertically centers the logo */
+
+img {
+
+}
+
 .center {
 	margin: 0 auto;
-	padding:0 40px 0 40px;
-	max-width:600px;
-	position: relative; top: 50%;
+	/*padding:0 40px 0 40px;*/
+	max-width:200px;
+	position: relative; top: 7%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
