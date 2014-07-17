@@ -43,6 +43,7 @@ strong {
 
 a {
 	text-decoration:none;
+/*	border-bottom: 2px solid;*/
 	color:#5badf0;
 }
 
@@ -52,13 +53,20 @@ a {
 	height: 100%;
 }
 
-/* Link to Documentation */
-a#documentation {
-	position: fixed; top: 11px; right: 9px;
-	background: #5badf0; color: #fff;
-	padding: 8px 12px;
-	font-size: 13px; font-weight: bold; line-height: 1.35;
+/* Navigation */
+
+a#title {
+	position: fixed; top: 20px; left: 20px;
+	color: #ffffff;
+	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
+}
+
+a#titleright {
+	position: fixed; top: 20px; right: 20px;
+	color: #fff;
+	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
 	border-radius: 3px; z-index: 100;
+	max-width:200px;
 }
 
 /* Horizontally and vertically centers the text */
@@ -70,9 +78,4 @@ a#documentation {
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-}
-
-#badge {
-	position: absolute; bottom: 10px; right: 10px;
-	height: 48px; width: 48px;
 }
