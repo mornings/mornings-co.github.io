@@ -10,12 +10,25 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .group:after { clear: both;}
 .group { zoom: 1;}
 
+@font-face {
+font-family: 'AcneStudiosCircleBook';
+src: url(/static/fonts/AcneStudiosCircleBook.woff) format('woff');
+}
+
+@font-face {
+font-family: 'AcneStudiosCircleBold';
+src: url(/static/fonts/AcneStudiosCircleBold.woff) format('woff');
+}
+
 body {
+	font-family: 'AcneStudiosCircleBook';
 	font:16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
 	-webkit-font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 	height: 100%;
 	color:#777;
+	background-color:#231E1E;
+
 }
 
 p {
@@ -23,6 +36,7 @@ p {
 }
 
 strong {
+	font-family: 'AcneStudiosCircleBold';
 	font-weight: 500;
 	color: #444;
 }
