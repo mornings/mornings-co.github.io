@@ -10,7 +10,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .group:after { clear: both;}
 .group { zoom: 1;}
 
-@font-face {
+/*@font-face {
 font-family: 'AcneStudiosCircleBook';
 src: url(/static/fonts/AcneStudiosCircleBook.woff) format('woff');
 }
@@ -18,10 +18,9 @@ src: url(/static/fonts/AcneStudiosCircleBook.woff) format('woff');
 @font-face {
 font-family: 'AcneStudiosCircleBold';
 src: url(/static/fonts/AcneStudiosCircleBold.woff) format('woff');
-}
+}*/
 
 body {
-	font-family: 'AcneStudiosCircleBook';
 	font:16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
 	-webkit-font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
@@ -55,13 +54,29 @@ a {
 /* Navigation */
 
 a#title {
-	position: fixed; top: 20px; left: 20px;
+	position: fixed; top: 30px; left: 30px;
 	color: #ffffff;
 	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
 }
 
 a#titleright {
-	position: fixed; top: 20px; right: 20px;
+	position: fixed; top: 30px; right: 30px;
+	color: #fff;
+	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
+	border-radius: 3px; z-index: 100;
+	max-width:200px;
+}
+
+a#bottomleft {
+	position: fixed; bottom: 20px; left: 20px;
+	color: #fff;
+	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
+	border-radius: 3px; z-index: 100;
+	max-width:200px;
+}
+
+a#bottomright {
+	position: fixed; bottom: 20px; right: 20px;
 	color: #fff;
 	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
 	border-radius: 3px; z-index: 100;

@@ -34,3 +34,6 @@ function retina() {
 };
  
 $(document).ready(retina);
+
+// This is FadeTo stuff
+
