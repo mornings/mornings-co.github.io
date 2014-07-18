@@ -68,7 +68,7 @@ a#titleright {
 }
 
 a#bottomleft {
-	position: fixed; bottom: 20px; left: 20px;
+	position: fixed; bottom: 30px; left: 30px;
 	color: #fff;
 	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
 	border-radius: 3px; z-index: 100;
