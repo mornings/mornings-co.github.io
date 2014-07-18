@@ -4,4 +4,4 @@
 
 A small + simple website.
 
-'Simple home goods, interventions, and textbooking.'
+'Simple home goods, interventions, textbooking, creative labs'
