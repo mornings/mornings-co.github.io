@@ -90,11 +90,33 @@
   });
 </script>
 
+<script>
+  $.getScript('/static/js/okhover.min.js', function () {
+  	$(function(){
+    $('li').okhover({
+        fadeIn: true,
+        fadeOut: true,
+        fadeInDuration: 5000,
+        zIndex: 420,
+        el: 'body'
+    });
+});
+  });
+</script>
+
 <ul id="bottomleft">
-	<li><a href="http://mornings.co/">Home Goods</a>,</li>
-	<li><a href="http://mornings.co/">Interventions</a>,</li>
-	<li><a href="http://mornings.co/">Textbooking</a>,</li>
-	<li><a href="http://mornings.co/">Creative Labs</a></li>
+	<li data-okimage='/static/images/tv.png'>
+		<a href="http://mornings.co/">Home Goods</a>,
+	</li>
+	<li data-okimage='/static/images/wo.png'>
+		<a href="http://mornings.co/">Interventions</a>,
+	</li>
+	<li data-okimage='/static/images/cu.png'>
+		<a href="http://mornings.co/">Textbooking</a>,
+	</li>
+	<li data-okimage='/static/images/uc.png'>
+		<a href="http://mornings.co/">Creative Labs</a>
+	</li>
 </ul>
 
 
