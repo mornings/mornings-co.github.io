@@ -62,11 +62,9 @@
 
 <a id="title" href="http://mornings.co/">Mornings</a>
 
-<!-- <section id="logotype"> -->
-  <p class="center"><img src="/static/images/sunrise.svg"></img></p> 
-<!-- </section> -->
+<p class="logotype"><img src="/static/images/sunrise.svg"></img></p>
 
- <a id="titleright" data-strings='
+<a id="titleright" data-strings='
     { "targets" : ["☞☀☜","★ ～ ☆","★彡 ☆彡","ミミミ彡彡彡","░░▒▓█"]}' href="http://mornings.co/info">
 </a>
 
@@ -90,20 +88,6 @@
   });
 </script>
 
-<script>
-  $.getScript('/static/js/okhover.min.js', function () {
-  	$(function(){
-    $('li').okhover({
-        fadeIn: true,
-        fadeOut: true,
-        fadeInDuration: 5000,
-        zIndex: 420,
-        el: 'body'
-    });
-});
-  });
-</script>
-
 <ul id="bottomleft">
 	<li data-okimage='/static/images/tv.png'>
 		<a href="http://mornings.co/">Home Goods</a>,
@@ -118,6 +102,22 @@
 		<a href="http://mornings.co/">Creative Labs</a>
 	</li>
 </ul>
+
+<script>
+  $.getScript('/static/js/okhover.min.js', function () {
+  	$(function(){
+    $('li').okhover({
+        fadeIn: true,
+        fadeOut: true,
+        fadeInDuration: 5000,
+        zIndex: 420,
+        el: 'body'
+    });
+});
+  });
+</script>
+
+	Hello this is my sick web page!
 
 
 

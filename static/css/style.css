@@ -41,6 +41,14 @@ a:hover {
 	border-bottom: 2px solid;
 }
 
+.logotype {
+	max-width:200px;
+	margin-top: -50px;
+	margin-left: -100px;
+	position: fixed;
+	left: 50%;
+}
+
 a#title {
 	position: fixed; top: 30px; left: 30px;
 	color: #ffffff;
@@ -99,14 +107,6 @@ h4 {
 	font-weight: bold;
 	color: #666;
 	margin-bottom: 6px;
-}
-
-.center {
-	max-width:200px;
-	margin-top: -50px;
-	margin-left: -100px;
-	position: fixed;
-	left: 50%;
 }
 
 /*=========================================
