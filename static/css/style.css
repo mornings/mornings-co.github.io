@@ -23,6 +23,15 @@ body {
 Typography
 =========================================== */
 
+p {
+	line-height:1.8;
+}
+
+strong {
+	font-weight: 500;
+	color: #444;
+}
+
 ul {
 	text-decoration:none;
 	color: #ffffff;
@@ -71,17 +80,17 @@ ul#bottomleft {
 	max-width:200px;
 }
 
-a#bottomright {
-	position: fixed; bottom: 20px; right: 20px;
+ul#bottomright {
+	position: fixed; bottom: 30px; right: 30px;
 	color: #fff;
 	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
 	border-radius: 3px; z-index: 100;
 	max-width:200px;
 }
 
-p {
-	line-height:1.8;
-}
+/*=================================================================
+Everything below this is deletable. '/posts' depends on most of it.
+=================================================================== */
 
 p.small { 
 	color: #bbb; font-size: 14px; line-height: 1.5; 
@@ -89,11 +98,6 @@ p.small {
 }
 
 .post-body, p { line-height:1.7; }
-
-strong {
-	font-weight: 500;
-	color: #444;
-}
 
 h3 {
 	font-size:13px;
