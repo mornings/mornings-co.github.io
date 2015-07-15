@@ -1,6 +1,6 @@
-[Mornings](http://mornings.co)
+Mornings Company
 
-- - -
+—
 
 A small + simple website.
 
@@ -8,4 +8,4 @@ A small + simple website.
 
 —
 
-*Built with [Cactus](http://cactusformac.com/docs/)*
+More later
