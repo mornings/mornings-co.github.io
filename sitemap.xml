@@ -21,7 +21,17 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/posts/death.html</loc>
+        <loc>/posts/home-goods.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/posts/interventions.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/posts/textbooking.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
