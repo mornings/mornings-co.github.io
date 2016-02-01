@@ -20,15 +20,14 @@ body {
 	}
 }
 
-#wrapper,
-#wrapper.post {
+#wrapper {
 	padding: 1em 2em 2em;
 	max-width: 920px;
 	margin: 0px auto;
 	@media screen and (max-width: 540px) {
-		padding: 40px 40px;
+		padding: 40px;
 	}
 	@media screen and (max-width:440px) {
-		padding: 40px .5em 40px .5em;
+		padding: 40px .5em;
 	}
 }

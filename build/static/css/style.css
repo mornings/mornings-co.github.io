@@ -61,7 +61,7 @@ a {
   text-decoration: none;
   color: white; }
   a:hover {
-    text-decoration: underline; }
+    color: rgba(255, 255, 255, 0.5); }
 
 strong {
   font-family: "Neue Haas Unica W01 Bold", Helvetica, Arial, sans-serif;
@@ -175,19 +175,16 @@ body {
     body {
       font: 15px/1.4 "Neue Haas Unica W01 Regular", Helvetica, Arial, sans-serif; } }
 
-#wrapper,
-#wrapper.post {
+#wrapper {
   padding: 1em 2em 2em;
   max-width: 920px;
   margin: 0px auto; }
   @media screen and (max-width: 540px) {
-    #wrapper,
-    #wrapper.post {
-      padding: 40px 40px; } }
+    #wrapper {
+      padding: 40px; } }
   @media screen and (max-width: 440px) {
-    #wrapper,
-    #wrapper.post {
-      padding: 40px .5em 40px .5em; } }
+    #wrapper {
+      padding: 40px .5em; } }
 
 .main-menu {
   max-width: 840px;
