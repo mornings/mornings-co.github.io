@@ -1,11 +1,3 @@
-Mornings Company
+Édouard U.
 
-—
-
-A small + simple website.
-
-'Simple home goods, interventions, textbooking, creative labs'
-
-—
-
-More later
+This is a site for playing around
