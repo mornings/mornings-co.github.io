@@ -1,56 +1,120 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mornings Company</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Mornings</title>
+    <meta name="description" content="Mornings is cool" />
+
+    <meta property="og:title" content="Mornings" />
+    <meta property="og:description" content="Mornings is cool" />
+    <meta property="og:site_name" content="Mornings" />
+    <meta property="og:url" content="https://mornings.co" />
+    <meta property="og:image" content="/og.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:alt" content="A doodle" />
+    <meta property="og:type" content="profile" />
+
+    <meta name="twitter:card" content="/og.png" />
+    <meta name="twitter:site" content="@morningsco" />
+    <meta name="twitter:title" content="Mornings" />
+    <meta name="twitter:description" content="Mornings is cool" />
+    <meta name="twitter:creator" content="@morningsco" />
+    <meta name="twitter:image:src" content="/og.png" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon16.png" />
+    <link rel="mask-icon" href="/favicon.svg" />
+
     <style>
-      .arial {
-        font-family: Arial, Helvetica, sans-serif, "Helvetica", sans-serif;
-        font-style: normal;
+      body {
+        font-size: 1.66em;
+        line-height: 1.4em;
+        margin: 3em;
       }
-      .bg-m-black {background-color: #231E1E}
-      .m-tracked {letter-spacing: 1px;}
+      @media screen and (max-width: 800px) {
+        body {
+          font-size: 1em;
+          margin: 6em 1.5em;
+        }
+      }
+      section {
+        margin-bottom: 3em;
+        /* border-bottom: 1px solid black; */
+      }
+      article {
+        max-width: 30em;
+      }
+      article img {
+        max-width: 30em;
+      }
+      iframe {
+        width: 100%;
+        height: 100vh;
+      }
+      @media screen and (max-width: 30em) {
+        article {
+          max-width: 100%;
+        }
+        article img {
+          max-width: 100%;
+        }
+        iframe {
+          width: 100vw;
+        }
+      }
+      a {
+        text-decoration: none;
+      }
+      sup {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.5em;
+      }
+      .serif {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .vimeo {
+        max-width: 30em;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body.night {
+          background: rgb(35, 30, 30);
+          color: rgb(255, 255, 255);
+        }
+        a {
+          color: rgba(255, 255, 255, 0.4);
+        }
+        img {
+          opacity: 0.4;
+        }
+      }
+      @media (prefers-color-scheme: light) {
+        body.day {
+          background: rgb(255, 255, 255);
+          color: rgb(0, 0, 0);
+        }
+        a {
+          color: #8FBC8F;
+        }
+      }
     </style>
-</head>
-  
-  <body class="
-            ph4
-            pv3
-            ph6-ns
-            pv6-ns
-            f5 
-            f3-ns
-            fw3
-            m-tracked
-            lh-copy 
-            sans-serif
-            bg-m-black
-            white            
-            ">
+  </head>
 
-    <section class="">
-      <p class="">Mornings <br> Company</p>
+  <body class="night day">
+    <section>
+        Mornings is a New York based studio <br>
+        founded by husband-and-wife partners<br>
+        <a href="">É. Urcades</a> and <a href="">J. Chang</a>––<br>
+        <br>
+        Their focus is in experiential design of<br>
+        interfaces (Édouard) and interiors (Jenny),<br>
+        representing interdisciplinary expertise <br>
+        deeply rooted in research, human scale,<br>
+        and meaningful choices.<br>
     </section>
-  
-    <section class="">
-        <p class="w-100 w-80-m w-25-l w-25-ns">Research & Development, New Infrastructures, Unfolding Futures, Wicked Systems.</p>
-    </section>
-
-    <section class="">
-        <p class="w-100 w-80-m w-20-l w-25-ns">Occupied, currently not accepting work.</p>
-    </section>
-    
-    <!--  Image/Project One  -->
-<!--     <div class="ml7 w-70 mt5-ns">
-      <img class="db mt4 mt5-ns" src="http://mrmrs.github.io/photos/010.jpg" alt="Photo of a dusk skyline above a grassy rockface covered in trees.">
-        <a href="#" class="dib pv3 f5 link black lh-title">Urbit</a>
-      <img class="db mt4 mt3-ns" src="http://mrmrs.github.io/photos/010.jpg" alt="Photo of a dusk skyline above a grassy rockface covered in trees.">
-      <div class="pv3 f5">
-        <a href="#" class="link black lh-title">Are.na</a>
-        <small class="gray db pv2">Open-source design works — easier-to-use patterns, speculative interfaces.</small>
-      </div>
-    </div> -->
   </body>
+</html>
